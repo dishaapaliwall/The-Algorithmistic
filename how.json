@@ -1,0 +1,50 @@
+{
+  "title": "How it works?",
+  "subtitle": "Learn algorithms through our proven four-step interactive process.",
+  "steps": [
+    {
+      "type": "card",
+      "icon": "fa-solid fa-book",
+      "title": "Choose an Algorithm",
+      "description": "Select from our extensive library of algorithms across different categories and difficulty levels.",
+      "buttonText": "Learn More"
+    },
+    {
+      "type": "image",
+      "image": "Screenshot 2025-09-21 231342.png"
+    },
+    {
+      "type": "image",
+      "image": "Screenshot 2025-09-21 231442.png"
+    },
+    {
+      "type": "card",
+      "icon": "fa-solid fa-gear",
+      "title": "Customize Parameters",
+      "description": "Adjust input size, speed, and visualization settings to match your learning preferences.",
+      "buttonText": "Learn More"
+    },
+    {
+      "type": "card",
+      "icon": "fa-solid fa-play",
+      "title": "Watch & Learn",
+      "description": "Experience the algorithm in action with our immersive 3D visualizations and step-by-step explanations.",
+      "buttonText": "Learn More"
+    },
+    {
+      "type": "image",
+      "image": "Screenshot 2025-09-21 231402.png"
+    },
+    {
+      "type": "image",
+      "image": "Screenshot 2025-09-21 231342.png"
+    },
+    {
+      "type": "card",
+      "icon": "fa-solid fa-trophy",
+      "title": "Master the Concept",
+      "description": "Test your understanding with interactive quizzes and apply your knowledge to real-world problems.",
+      "buttonText": "Learn More"
+    }
+  ]
+}

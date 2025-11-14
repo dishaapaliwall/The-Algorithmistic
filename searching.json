@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Linear Search",
+    "difficulty": "Easy",
+    "category": "Searching",
+    "description": "A simple search algorithm that sequentially checks each element of a list until the desired element is found or the list ends.",
+    "best": "O(1)",
+    "avg": "O(n)",
+    "worst": "O(n)",
+    "link": "linear-search.html"
+  },
+  {
+    "name": "Binary Search",
+    "difficulty": "Easy",
+    "category": "Searching",
+    "description": "An efficient search algorithm for sorted lists that repeatedly divides the search interval in half to locate the target element.",
+    "best": "O(1)",
+    "avg": "O(log n)",
+    "worst": "O(log n)",
+    "link": "binary-search.html"
+  },
+  {
+    "name": "Hash Table",
+    "difficulty": "Medium",
+    "category": "Data Structure",
+    "description": "A data structure that stores key-value pairs and allows fast retrieval using a hash function to compute an index for each key.",
+    "best": "O(1)",
+    "avg": "O(1)",
+    "worst": "O(n)",
+    "link": "#"
+  },
+  {
+    "name": "Breadth-First Search",
+    "difficulty": "Medium",
+    "category": "Graph Traversal",
+    "description": "An algorithm for traversing or searching graph data structures, exploring all neighbors of a node before moving to the next level of nodes.",
+    "best": "O(1)",
+    "avg": "O(V + E)",
+    "worst": "O(V + E)",
+    "link": "#"
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "title": "Why choose our platform?",
+  "subtitle": "Revolutionize your Algorithm learning experience with cutting-edge visualization technology.",
+  "features": [
+    {
+      "icon": "fa-solid fa-cube",
+      "title": "3D Visualisations",
+      "description": "Experience algorithms in three dimensions with interactive 3D models that bring abstract concepts to life."
+    },
+    {
+      "icon": "fa-solid fa-eye",
+      "title": "Step by Step Execution",
+      "description": "Watch algorithms execute line by line with detailed explanations and visual feedback at each step."
+    },
+    {
+      "icon": "fa-solid fa-bolt",
+      "title": "Interactive Learning",
+      "description": "Pause, rewind, and control the speed of visualizations to learn at your own pace."
+    },
+    {
+      "icon": "fa-solid fa-book",
+      "title": "Comprehensive Library",
+      "description": "Access a vast collection of sorting, searching, graph, and dynamic programming algorithms."
+    },
+    {
+      "icon": "fa-solid fa-user-graduate",
+      "title": "Built for Students",
+      "description": "Designed specifically for computer science students with clear explanations and examples."
+    },
+    {
+      "icon": "fa-solid fa-chart-line",
+      "title": "Performance Analysis",
+      "description": "Understand time and space complexity with real-time performance metrics and comparisons."
+    }
+  ]
+}

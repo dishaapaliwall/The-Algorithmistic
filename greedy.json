@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Activity Selection",
+    "difficulty": "Easy",
+    "category": "Greedy Algorithm",
+    "description": "Selects the maximum number of non-overlapping activities by always choosing the earliest finishing activity first.",
+    "best": "O(n log n)",
+    "avg": "O(n log n)",
+    "worst": "O(n log n)",
+    "link": "activity-selection.html"
+  },
+  {
+    "name": "Huffman Coding",
+    "difficulty": "Medium",
+    "category": "Greedy Algorithm",
+    "description": "Builds an optimal prefix code tree for data compression by repeatedly merging the two least frequent nodes.",
+    "best": "O(n log n)",
+    "avg": "O(n log n)",
+    "worst": "O(n log n)",
+    "link": "huffman-coding.html"
+  },
+  {
+    "name": "Fractional Knapsack",
+    "difficulty": "Medium",
+    "category": "Greedy Algorithm",
+    "description": "Maximizes total value by taking items with the highest value-to-weight ratio, possibly taking fractional parts of items.",
+    "best": "O(n log n)",
+    "avg": "O(n log n)",
+    "worst": "O(n log n)",
+    "link": "fractional-knapsack.html"
+  },
+  {
+    "name": "Job Scheduling",
+    "difficulty": "Medium",
+    "category": "Greedy Algorithm",
+    "description": "Assigns jobs to maximize profit with deadlines, typically sorting jobs by profit and using a greedy allocation strategy.",
+    "best": "O(n^2)",
+    "avg": "O(n^2)",
+    "worst": "O(n^2)",
+    "link": "job-scheduling.html"
+  }
+]

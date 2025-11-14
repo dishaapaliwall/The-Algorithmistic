@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Tree Traversal",
+    "difficulty": "Easy",
+    "category": "Tree Algorithm",
+    "description": "The process of visiting each node in a tree data structure—common types include inorder, preorder, and postorder traversals.",
+    "best": "O(n)",
+    "avg": "O(n)",
+    "worst": "O(n)",
+    "link": "#"
+  },
+  {
+    "name": "AVL Trees",
+    "difficulty": "Medium",
+    "category": "Tree Algorithm",
+    "description": "A type of self-balancing binary search tree where the difference of heights between left and right subtrees for every node is at most one.",
+    "best": "O(log n)",
+    "avg": "O(log n)",
+    "worst": "O(log n)",
+    "link": "#"
+  },
+  {
+    "name": "Red-Black Trees",
+    "difficulty": "Medium",
+    "category": "Tree Algorithm",
+    "description": "A self-balancing binary search tree using an extra bit of storage (color) per node to ensure the tree remains balanced during insertions and deletions.",
+    "best": "O(log n)",
+    "avg": "O(log n)",
+    "worst": "O(log n)",
+    "link": "#"
+  },
+  {
+    "name": "B-Trees",
+    "difficulty": "Hard",
+    "category": "Tree Algorithm",
+    "description": "A self-balancing search tree in which nodes can have multiple children and is optimized for systems that read and write large blocks of data.",
+    "best": "O(log n)",
+    "avg": "O(log n)",
+    "worst": "O(log n)",
+    "link": "#"
+  }
+]

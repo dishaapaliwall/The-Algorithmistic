@@ -1,0 +1,54 @@
+{
+  "title": "Algorithm Categories",
+  "subtitle": "Comprehensive coverage of essential computer science algorithms with interactive 3D visualisations.",
+  "categories": [
+    {
+      "iconClass": "cat-icon-icon-sort",
+      "icon": "fa-solid fa-sort",
+      "name": "Sorting Algorithms",
+      "items": ["Bubble Sort", "Quick Sort", "Merge Sort", "Heap Sort", "Insertion Sort"],
+      "link": "sorting-algorithms.html",
+      "buttonClass": "btn-sorting"
+    },
+    {
+      "iconClass": "cat-icon-icon-search",
+      "icon": "fa-solid fa-magnifying-glass",
+      "name": "Searching Algorithms",
+      "items": ["Binary Search", "Linear Search", "Hash Table", "Breadth-First Search"],
+      "link": "searching-algorithms.html",
+      "buttonClass": "btn-searching"
+    },
+    {
+      "iconClass": "cat-icon-icon-graph",
+      "icon": "fa-solid fa-code-branch",
+      "name": "Graph Algorithms",
+      "items": ["Dijkstra's", "A* Search", "Depth-First Search", "Kruskal's Algorithm"],
+      "link": "graph-algorithms.html",
+      "buttonClass": "btn-graph"
+    },
+    {
+      "iconClass": "cat-icon-icon-tree",
+      "icon": "fa-solid fa-tree",
+      "name": "Tree Algorithms",
+      "items": ["Tree Traversal", "AVL Trees", "Red-Black Trees", "B-Trees"],
+      "link": "tree-algorithms.html",
+      "buttonClass": "btn-tree"
+    },
+    {
+      "iconClass": "cat-icon-icon-dp",
+      "icon": "fa-solid fa-shuffle",
+      "name": "Dynamic Programming",
+      "items": ["Fibonacci", "Knapsack", "Longest Common Subsequence", "Edit Distance"],
+      "link": "dynamic-programming.html",
+      "buttonClass": "btn-dp"
+    },
+    {
+      "iconClass": "cat-icon-icon-greedy",
+      "icon": "fa-solid fa-bolt",
+      "name": "Greedy Algorithms",
+      "items": ["Activity Selection", "Huffman Coding", "Fractional Knapsack", "Job Scheduling"],
+      "link": "greedy-algorithms.html",
+      "buttonClass": "btn-greedy"
+    }
+  ]
+}
