@@ -7,7 +7,7 @@
     "best": "O(n log n)",
     "avg": "O(n log n)",
     "worst": "O(n log n)",
-    "link": "activity-selection.html"
+    "link": "/ComingSoon"
   },
   {
     "name": "Huffman Coding",
@@ -17,7 +17,7 @@
     "best": "O(n log n)",
     "avg": "O(n log n)",
     "worst": "O(n log n)",
-    "link": "huffman-coding.html"
+    "link": "/ComingSoon"
   },
   {
     "name": "Fractional Knapsack",
@@ -27,7 +27,7 @@
     "best": "O(n log n)",
     "avg": "O(n log n)",
     "worst": "O(n log n)",
-    "link": "fractional-knapsack.html"
+    "link": "/ComingSoon"
   },
   {
     "name": "Job Scheduling",
@@ -37,6 +37,6 @@
     "best": "O(n^2)",
     "avg": "O(n^2)",
     "worst": "O(n^2)",
-    "link": "job-scheduling.html"
+    "link": "/ComingSoon"
   }
 ]

@@ -7,7 +7,7 @@
     "best": "O(n)",
     "avg": "O(n)",
     "worst": "O(n)",
-    "link": "#"
+    "link": "/ComingSoon"
   },
   {
     "name": "AVL Trees",
@@ -17,7 +17,7 @@
     "best": "O(log n)",
     "avg": "O(log n)",
     "worst": "O(log n)",
-    "link": "#"
+    "link": "/ComingSoon"
   },
   {
     "name": "Red-Black Trees",
@@ -27,7 +27,7 @@
     "best": "O(log n)",
     "avg": "O(log n)",
     "worst": "O(log n)",
-    "link": "#"
+    "link": "/ComingSoon"
   },
   {
     "name": "B-Trees",
@@ -37,6 +37,6 @@
     "best": "O(log n)",
     "avg": "O(log n)",
     "worst": "O(log n)",
-    "link": "#"
+    "link": "/ComingSoon"
   }
 ]

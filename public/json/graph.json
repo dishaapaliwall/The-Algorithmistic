@@ -7,7 +7,7 @@
     "best": "O(V^2)",
     "avg": "O(E + V log V)",
     "worst": "O(E + V log V)",
-    "link": "#"
+    "link": "/ComingSoon"
   },
   {
     "name": "A* Search",
@@ -17,7 +17,7 @@
     "best": "O(E)",
     "avg": "O(E)",
     "worst": "O(E)",
-    "link": "#"
+    "link": "/ComingSoon"
   },
   {
     "name": "Depth-First Search",
@@ -27,7 +27,7 @@
     "best": "O(V + E)",
     "avg": "O(V + E)",
     "worst": "O(V + E)",
-    "link": "#"
+    "link": "/ComingSoon"
   },
   {
     "name": "Kruskal's Algorithm",
@@ -37,6 +37,6 @@
     "best": "O(E log E)",
     "avg": "O(E log E)",
     "worst": "O(E log E)",
-    "link": "#"
+    "link": "/ComingSoon"
   }
 ]

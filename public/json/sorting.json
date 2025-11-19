@@ -7,7 +7,7 @@
     "best": "O(n)",
     "avg": "O(n²)",
     "worst": "O(n²)",
-    "link": "123.html"
+    "link": "/123"
   },
   {
     "name": "Quick Sort",
@@ -17,7 +17,7 @@
     "best": "O(n log n)",
     "avg": "O(n log n)",
     "worst": "O(n²)",
-    "link": "#"
+    "link": "/ComingSoon"
   },
   {
     "name": "Merge Sort",
@@ -27,7 +27,7 @@
     "best": "O(n log n)",
     "avg": "O(n log n)",
     "worst": "O(n log n)",
-    "link": "#"
+    "link": "/ComingSoon"
   },
   {
     "name": "Insertion Sort",
@@ -37,7 +37,7 @@
     "best": "O(n)",
     "avg": "O(n²)",
     "worst": "O(n²)",
-    "link": "insertion.html"
+    "link": "/ComingSoon"
   },
   {
     "name": "Selection Sort",
@@ -47,6 +47,6 @@
     "best": "O(n²)",
     "avg": "O(n²)",
     "worst": "O(n²)",
-    "link": "#"
+    "link": "/ComingSoon"
   }
 ]

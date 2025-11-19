@@ -7,7 +7,7 @@
     "best": "O(1)",
     "avg": "O(n)",
     "worst": "O(n)",
-    "link": "fibonacci.html"
+    "link": "/ComingSoon"
   },
   {
     "name": "Knapsack",
@@ -17,7 +17,7 @@
     "best": "O(nW)",
     "avg": "O(nW)",
     "worst": "O(nW)",
-    "link": "knapsack.html"
+    "link": "/ComingSoon"
   },
   {
     "name": "Longest Common Subsequence",
@@ -27,7 +27,7 @@
     "best": "O(nm)",
     "avg": "O(nm)",
     "worst": "O(nm)",
-    "link": "LCS.html"
+    "link": "/ComingSoon"
   },
   {
     "name": "Edit Distance",
@@ -37,6 +37,6 @@
     "best": "O(nm)",
     "avg": "O(nm)",
     "worst": "O(nm)",
-    "link": "ED.html"
+    "link": "/ComingSoon"
   }
 ]

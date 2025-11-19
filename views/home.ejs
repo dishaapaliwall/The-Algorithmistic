@@ -3,32 +3,15 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>AlgoVisuals — Master Algorithms Through Visualization</title>
+  <title>Algorithmistic — Master Algorithms Through Visualization</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/c737e8ac77.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
-  <link rel="stylesheet" href="style1.css" />
+  <link rel="stylesheet" href="/css/style1.css" />
 </head>
 
 <body>
-  <div class="header-container">
-    <header class="topbar">
-      <div class="brand">
-        <div class="logo">
-          <img src="logoo.jpg" alt="Algorithmistic">
-        </div>
-        <nav class="nav">
-          <a href="#"><b>Home</b></a>
-          <a href="#why-section"><b>Features</b></a>
-          <a href="#how-section"><b>How it Works</b></a>
-          <a href="#categories-section"><b>Trending</b></a>
-          <a href="#footer"><b>About Us</b></a>
-          <a class="btn small" href="login.html">Get Started</a>
-        </nav>
-      </div>
-    </header>
-    <hr class="headerline">
-  </div>
+   <%- include("partials/header") %>
 
   <main class="container">
     <section class="hero">
@@ -41,8 +24,8 @@
           Transform your understanding of computer science algorithms with our interactive 3D visualizations. See sorting, searching, and graph algorithms come to life like never before.
         </p>
         <div class="hero-ctas">
-          <a class="btn primary" href="login.html"><i class="fa-solid fa-play fa-beat" style="color: #ffffff;"></i> Start Learning</a>
-          <a class="btn ghost" href="linear-search.html">Watch Demo <i class="fa-solid fa-arrow-right fa-beat" style="color: #ffffff;"></i></a>
+          <a class="btn primary" href="/login"><i class="fa-solid fa-play fa-beat" style="color: #ffffff;"></i> Start Learning</a>
+          <a class="btn ghost" href="/linear-search">Watch Demo <i class="fa-solid fa-arrow-right fa-beat" style="color: #ffffff;"></i></a>
         </div>
       </div>
     </section>
@@ -50,75 +33,26 @@
     <section class="dark-section">
       <div class="card-frame">
         <div class="card">
-          <img src="WhatsApp Image 2025-09-13 at 22.40.26_7402133f.jpg" alt="Feature Image">
+          <img src="/images/WhatsApp Image 2025-09-13 at 22.40.26_7402133f.jpg" alt="Feature Image">
         </div>
       </div>
     </section>
 
-    <!-- WHY SECTION -->
     <section class="why" id="why-section"></section>
 
-    <!-- ALGORITHM CATEGORIES -->
     <section class="categories" id="categories-section"></section>
 
-    <!-- HOW IT WORKS -->
     <section class="how" id="how-section"></section>
 
     <section class="cta">
       <div class="cta-box">
         <h2>Ready to transform your learning?</h2>
         <p>Join thousands of students who have mastered algorithms through our interactive platform.</p>
-        <a href="login.html" class="btn-primary">Start Your Journey</a>
+        <a href="/login" class="btn-primary">Start Your Journey</a>
       </div>
     </section>
 
-<footer class="footer" id="footer">
-  <div class="footer-main">
-    <div class="footer-brand-col">
-      <div class="footer-logo-row">
-        <img src="logo-removebg-preview.png" alt="Algorithmistic" class="footer-logo-img" />
-        <div class="footer-logo-txt">
-        </div>
-      </div>
-      <p class="footer-desc">
-        Empowering students to master computer science algorithms through immersive 3D visualizations and interactive learning experiences.
-      </p>
-      <div class="footer-social">
-        <a class="social-icon" href="#"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
-        <a class="social-icon" href="#"><i class="fa-brands fa-square-linkedin" style="color: #ffffff;"></i></a>
-        <a class="social-icon" href="#"><i class="fa-brands fa-x-twitter" style="color: #ffffff;"></i></a>
-        <a class="social-icon" href="#"><i class="fa-solid fa-envelope" style="color: #ffffff;"></i></a>
-      </div>
-    </div>
-    <div class="footer-links-col">
-      <ul>
-        <li><a href="#">Features</a></li>
-        <li><a href="#">Algorithms</a></li>
-        <li><a href="#">How it works?</a></li>
-        <li><a href="#">About us</a></li>
-      </ul>
-    </div>
-    <div class="footer-links-col">
-      <ul>
-        <li><a href="#">Sorting Algorithms</a></li>
-        <li><a href="#">Search Algorithms</a></li>
-        <li><a href="#">Graph Algorithms</a></li>
-        <li><a href="#">Dynamic Programming</a></li>
-      </ul>
-    </div>
-  </div>
-  <hr class="footer-divider">
-  <div class="footer-bottom-row">
-    <div class="footer-bottom-left">
-      © 2025 The Algorithmistic. All rights reserved.
-    </div>
-    <div class="footer-bottom-links">
-      <a href="#">Privacy Policy</a>
-      <a href="#">Terms of Service</a>
-      <a href="#">Contact</a>
-    </div>
-  </div>
-</footer>
+<%- include("partials/footer") %>
   </main>
 
 
@@ -197,9 +131,9 @@
     `;
   }
 
-  loadSection("why.json", "why-section", renderWhy);
-  loadSection("categories.json", "categories-section", renderCategories);
-  loadSection("how.json", "how-section", renderHow);
+  loadSection("/json/why.json", "why-section", renderWhy);
+  loadSection("/json/categories.json", "categories-section", renderCategories);
+  loadSection("/json/how.json", "how-section", renderHow);
 </script>
 
 </body>

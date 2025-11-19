@@ -7,7 +7,7 @@
     "best": "O(1)",
     "avg": "O(n)",
     "worst": "O(n)",
-    "link": "linear-search.html"
+    "link": "/linear-search"
   },
   {
     "name": "Binary Search",
@@ -17,7 +17,7 @@
     "best": "O(1)",
     "avg": "O(log n)",
     "worst": "O(log n)",
-    "link": "binary-search.html"
+    "link": "/binary-search"
   },
   {
     "name": "Hash Table",
@@ -27,7 +27,7 @@
     "best": "O(1)",
     "avg": "O(1)",
     "worst": "O(n)",
-    "link": "#"
+    "link": "/ComingSoon"
   },
   {
     "name": "Breadth-First Search",
@@ -37,6 +37,6 @@
     "best": "O(1)",
     "avg": "O(V + E)",
     "worst": "O(V + E)",
-    "link": "#"
+    "link": "/ComingSoon"
   }
 ]
