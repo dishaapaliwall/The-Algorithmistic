@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account — AlgoVisuals</title>
+
+    <link rel="stylesheet" href="/css/style1.css">
+
+    <style>
+        body {
+            background: #0d0d0d;
+            font-family: "Inter", sans-serif;
+            color: white;
+        }
+
+        .auth-container {
+            width: 420px;
+            margin: 80px auto;
+            background: #141414;
+            padding: 35px 40px;
+            border-radius: 18px;
+            box-shadow: 0 0 40px rgba(0,0,0,0.4);
+        }
+
+        .auth-title {
+            font-size: 32px;
+            font-weight: 800;
+            text-align: center;
+            margin-bottom: 25px;
+            background: linear-gradient(90deg, #3B82F6, #A855F7);
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+
+        .auth-input {
+            width: 100%;
+            padding: 12px;
+            background: #1e1e1e;
+            border: 1px solid #333;
+            border-radius: 10px;
+            margin: 12px 0;
+            font-size: 16px;
+            color: #fff;
+        }
+
+        .auth-btn {
+            width: 100%;
+            padding: 12px;
+            background: linear-gradient(90deg, #667EEA, #764BA2);
+            border: none;
+            border-radius: 10px;
+            font-size: 17px;
+            font-weight: 700;
+            cursor: pointer;
+            color: white;
+            margin-top: 15px;
+            transition: 0.2s ease;
+        }
+
+        .auth-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 18px rgba(118, 75, 162, 0.4);
+        }
+
+        .auth-link {
+            text-align: center;
+            margin-top: 15px;
+            font-size: 14px;
+        }
+
+        .auth-link a {
+            color: #A855F7;
+            text-decoration: none;
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="auth-container">
+        <h2 class="auth-title">Create Account</h2>
+
+        <form action="/register" method="POST">
+            <input type="text" name="name" class="auth-input" placeholder="Full Name" required>
+            <input type="email" name="email" class="auth-input" placeholder="Email Address" required>
+            <input type="password" name="password" class="auth-input" placeholder="Password" required>
+
+            <button class="auth-btn" type="submit">Sign Up</button>
+        </form>
+
+        <p class="auth-link">
+            Already have an account? <a href="/login">Login</a>
+        </p>
+    </div>
+
+
+</body>
+</html>
+

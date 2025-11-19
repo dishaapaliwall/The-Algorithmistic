@@ -59,6 +59,59 @@
   <button class="tab-btn" data-tab="code" style="flex:1; padding:12px 0; border-radius:12px; border:none; background:#232222; color:#fff; font-weight:700; cursor:pointer; font-size:1.13rem;">Pseudocode</button>
 </div>
 <div id="tab-content"></div>
+<!-- COMMENTS SECTION -->
+<div style="max-width:900px; margin:40px auto; background:#141414; padding:30px; border-radius:16px;">
+
+  <h2 style="background:linear-gradient(90deg,#3B82F6,#A855F7);-webkit-background-clip:text; color:transparent; font-size:2rem; margin-bottom:18px;">Comments</h2>
+
+  <% if (!currentUser) { %>
+    <div style="background:#23223a; padding:20px; border-radius:12px; margin-bottom:20px; display:flex; align-items:center; gap:16px;">
+      <i class="fa-solid fa-user-lock" style="font-size:2rem; color:#A855F7;"></i>
+      <div>
+        <p style="margin:0; color:#fff;">You must be logged in to comment.</p>
+        <a href="/login" style="color:#3B82F6; text-decoration:underline;">Login</a>
+      </div>
+    </div>
+  <% } %>
+
+  <% if (currentUser) { %>
+    <form action="<%= commentAction %>" method="POST" style="margin-bottom:28px; background:#181828; border-radius:14px; box-shadow:0 2px 12px #0002; padding:18px;">
+      <div style="display:flex; align-items:flex-start; gap:14px;">
+        <div style="width:44px; height:44px; background:#23223a; border-radius:50%; display:flex; align-items:center; justify-content:center; font-weight:700; color:#A855F7; font-size:1.3rem;">
+          <%= currentUser.name ? currentUser.name[0].toUpperCase() : "U" %>
+        </div>
+        <div style="flex:1;">
+          <textarea name="content" rows="3" required style="width:100%; background:#23223a; color:white; padding:12px; border-radius:8px; border:none; font-size:1.08rem; resize:vertical;"></textarea>
+          <button style="margin-top:10px; width:100%; padding:12px; background:linear-gradient(90deg,#3B82F6,#A855F7); border:none; color:white; border-radius:8px; font-weight:700; font-size:1.08rem; box-shadow:0 2px 8px #0002; transition:background 0.2s; cursor:pointer;">Add Comment</button>
+        </div>
+      </div>
+    </form>
+  <% } %>
+
+  <% if (comments.length === 0) { %>
+    <p style="color:#888; text-align:center;">No comments yet.</p>
+  <% } %>
+
+  <% comments.forEach(c => { %>
+    <div style="background:#191926; padding:18px 22px; border-radius:14px; margin-bottom:18px; box-shadow:0 2px 10px #0003; transition:box-shadow 0.2s; display:flex; gap:16px; align-items:flex-start;">
+      <div style="width:44px; height:44px; background:#23223a; border-radius:50%; display:flex; align-items:center; justify-content:center; font-weight:700; color:#A855F7; font-size:1.3rem; flex-shrink:0;">
+        <%= c.userName ? c.userName[0].toUpperCase() : "U" %>
+      </div>
+      <div style="flex:1;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:2px;">
+          <span style="font-weight:700; color:#A855F7; font-size:1.08rem;"><%= c.userName %></span>
+          <span style="color:#888; font-size:0.98rem;"><%= c.createdAt.toLocaleString() %></span>
+        </div>
+        <p style="color:#e2e2e2; margin:7px 0 0 0; font-size:1.08rem;"> <%= c.content %> </p>
+        <% if (currentUser && currentUser._id == c.userId) { %>
+          <form action="<%= deleteAction + c._id %>" method="POST" style="text-align:right; margin-top:8px;">
+            <button style="background:#db1710; color:white; padding:6px 16px; border:none; border-radius:7px; font-size:0.98rem; font-weight:700; cursor:pointer; box-shadow:0 1px 6px #0002; transition:background 0.2s;">Delete</button>
+          </form>
+        <% } %>
+      </div>
+    </div>
+  <% }) %>
+</div>
 </div>
 </main>
 
